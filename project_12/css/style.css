@@ -1,0 +1,22 @@
+body {
+    background-color: #e0faf5;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #004d40;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  canvas {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #b2dfdb;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 121, 107, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  canvas:hover {
+    transform: scale(1.01);
+  }  
